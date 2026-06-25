@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OneriApi.Data;
+using OneriApi.Entities;
 
 
 [ApiController]
@@ -31,5 +32,16 @@ public class ShoesController : ControllerBase
             .ToListAsync();
 
         return Ok(result);
+    }
+    [HttpPost]
+    public async Task<IActionResult> AddShoe([FromBody] Shoe shoe)
+    {
+        if (shoe == null)
+            return BadRequest("Invalid data");
+
+        _context.Shoes.Add(shoe);
+        await _context.SaveChangesAsync();
+
+        return Ok(shoe);
     }
 }
