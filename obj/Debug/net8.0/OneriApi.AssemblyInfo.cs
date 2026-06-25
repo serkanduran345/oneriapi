@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OneriApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fde071c92c48c1d3a211a5b9b3eeffc9ee8f47b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("OneriApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OneriApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

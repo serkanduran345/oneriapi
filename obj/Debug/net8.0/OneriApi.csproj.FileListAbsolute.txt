@@ -144,3 +144,4 @@ C:\Users\Serkan\source\repos\OneriApi\OneriApi\obj\Debug\net8.0\refint\OneriApi.
 C:\Users\Serkan\source\repos\OneriApi\OneriApi\obj\Debug\net8.0\OneriApi.pdb
 C:\Users\Serkan\source\repos\OneriApi\OneriApi\obj\Debug\net8.0\OneriApi.genruntimeconfig.cache
 C:\Users\Serkan\source\repos\OneriApi\OneriApi\obj\Debug\net8.0\ref\OneriApi.dll
+C:\Users\Serkan\source\repos\OneriApi\OneriApi\obj\Debug\net8.0\OneriApi.sourcelink.json
