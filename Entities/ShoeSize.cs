@@ -14,6 +14,6 @@ namespace OneriApi.Entities
 
         public decimal? ForefootWidth { get; set; }
         [JsonIgnore]
-        public Shoe Shoe { get; set; } = null!;
+        public Shoe? Shoe { get; set; } = null!;
     }
 }
