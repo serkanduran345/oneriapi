@@ -1,4 +1,6 @@
-﻿namespace OneriApi.Entities
+﻿using System.Text.Json.Serialization;
+
+namespace OneriApi.Entities
 {
     public class ShoeSize
     {
@@ -11,7 +13,7 @@
         public decimal InnerLength { get; set; }
 
         public decimal? ForefootWidth { get; set; }
-
+        [JsonIgnore]
         public Shoe Shoe { get; set; } = null!;
     }
 }
